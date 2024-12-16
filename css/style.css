@@ -135,3 +135,131 @@ body {
 .footer-texte {
     font-size: 1rem;
 }
+
+/* Media Queries pour la responsivité */
+
+/* Mobile - 320px à 767px */
+@media screen and (max-width: 767px) {
+    .section-accueil {
+        padding: 10vh 5%;
+    }
+
+    .accueil-titre {
+        font-size: 2.5rem;
+    }
+
+    .accueil-sous-titre {
+        font-size: 1.2rem;
+    }
+
+    .barre-navigation {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+    .bouton-navigation {
+        font-size: 1rem;
+        margin: 0.5rem 0;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .carte-lieu {
+        flex-direction: column;
+        width: 95%;
+        margin: 5vh auto;
+    }
+
+    .image-lieu {
+        width: 100%;
+        height: auto;
+    }
+
+    .contenu-lieu {
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .contenu-titre {
+        font-size: 1.5rem;
+    }
+
+    .contenu-texte {
+        font-size: 1rem;
+    }
+}
+
+/* Tablette - 768px à 991px */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .section-accueil {
+        padding: 12vh 5%;
+    }
+
+    .accueil-titre {
+        font-size: 2.8rem;
+    }
+
+    .accueil-sous-titre {
+        font-size: 1.3rem;
+    }
+
+    .barre-navigation {
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    .bouton-navigation {
+        font-size: 1.1rem;
+        margin: 0.5rem 0;
+    }
+
+    .carte-lieu {
+        flex-direction: column;
+        margin: 4vh auto;
+    }
+
+    .image-lieu {
+        width: 100%;
+        height: auto;
+    }
+
+    .contenu-lieu {
+        width: 100%;
+        padding: 1.5rem;
+    }
+}
+
+/* Bureau - 992px et plus */
+@media screen and (min-width: 992px) {
+    .barre-navigation {
+        flex-direction: row;
+    }
+
+    .bouton-navigation {
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+    }
+
+    .carte-lieu {
+        flex-direction: row;
+        width: 90%;
+        margin: 5vh auto;
+    }
+
+    .image-lieu {
+        width: 40%;
+    }
+
+    .contenu-lieu {
+        width: 60%;
+    }
+
+    .contenu-titre {
+        font-size: 1.8rem;
+    }
+
+    .contenu-texte {
+        font-size: 1.1rem;
+    }
+}
